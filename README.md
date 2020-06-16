@@ -6,6 +6,6 @@ API built  for mobile app [Goals - Android](https://github.com/NarminaS/Goals-An
 - Excellent for SPA apps
 - 100% custom light MVC framework;
 
-###Coming soon
+### Coming soon
 - [ ] Views support
 - [ ] Multiple authorization types support (not only JWT)
