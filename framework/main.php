@@ -11,6 +11,10 @@ $app_path = ROOT;
 $path = substr($request_path, 1, strlen($request_path) - 1);
 $url_segments = explode('/', $path);
 
+/* 
+/dep-/i pattern was used in local ERP system , so it is not necessary
+skip the if (count($matches) > 0) segment while reading code
+*/
 $matches  = preg_grep('/dep-/i', $url_segments);
 
 $controller = ucfirst($url_segments[0]) . 'Controller';
