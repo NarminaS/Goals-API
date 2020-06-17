@@ -5,7 +5,7 @@ API built  for mobile app [Goals - Android](https://github.com/NarminaS/Goals-An
 - Supports JTW authorization;
 - "ASP.NET" attribute like model validation 
 
-##### My custom framework validation example of model validation decoration
+#### My custom framework  example of model validation decoration
 ```php
 <?php
 
@@ -22,7 +22,7 @@ class AuthModel extends ModelBase
 
 ```
 
-##### Real ASP.NET model validation example 
+#### Real ASP.NET model validation example 
 
 ```csharp
     public class AuthModel
@@ -34,9 +34,9 @@ class AuthModel extends ModelBase
         [Required]
         public string Password { get; set; }
     }
-``` | 
+``` 
 
-- 100% custom light MVC framework;
+- 100% custom light "ASP.NET MVC"like MVC framework;
 
 ### Coming soon
 - [ ] Views support
